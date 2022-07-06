@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int main ()
+int main(void)
 {
 	char ch = 'a';
 
-	printf("Lowercase Englis Alphabets:\n");
-	while(ch <= 'z')
+	printf("Lowercase English Alphabets:\n");
+	while (ch <= 'z')
 	{
-		printf("%c",ch);
+		printf("%c", ch);
 		ch++;
 	}
-	printf("\n");
+	printf(\n");
 
-	return 0;
+	'return' 0;
 }
