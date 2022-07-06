@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * main - function to print
- *
- * Return: 0
+ *  main - Print the word "_putchar"
+ *  
+ *  Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char main[4] = {'M', 'A', 'I', 'N'};
-	unsigned int c;
+	int i;
+	char p[] = "_putchar";
 
-	for (c = 0; c < sizeof(main); c++)
-	{
-		_putchar(main[c]);
-	}
-_putchar('\n');
-return (0);
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
+	return (0);
 }
+
