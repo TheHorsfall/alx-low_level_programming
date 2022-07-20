@@ -31,3 +31,14 @@ int divisors(int n, int m)
  * Return: recursion
  */
 
+int is_prime_number(int n)
+{
+	if ((!(n % 2) && n != 2) || n < 2)
+	{
+		return (0);
+	}
+	else
+	{
+		return (divisors(3, n));
+	}
+}
